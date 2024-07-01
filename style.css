@@ -1,0 +1,48 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+.header {
+    display: flex;
+}
+
+.header__h1 {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 8px;
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+}
+
+.head h2 {
+    padding: 10px 250px 10px 250px;
+    margin: 10px;
+    border-bottom: solid darkorchid 5px;
+}
+
+.imagecard img {
+    height: 250px;
+    width: 20%;
+    border: solid black 2px;
+}
+
+.imagecard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.background {
+    background-color: #DFCBC9;
+    border: solid blue 5px;
+}
